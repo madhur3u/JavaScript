@@ -1,0 +1,1122 @@
+[
+	{
+		"name": "Delhi Capitals",
+		"matches": [
+			{
+				"mno": "Final (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Nov 10 2020",
+				"vs": "Mumbai Indians",
+				"teamS": "156/7",
+				"oppS": "157/5",
+				"result": "Mumbai won by 5 wickets (with 8 balls remaining)"
+			},
+			{
+				"mno": "Qualifier 2 (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Nov 8 2020",
+				"vs": "Sunrisers Hyderabad",
+				"teamS": "189/3",
+				"oppS": "172/8",
+				"result": "Capitals won by 17 runs"
+			},
+			{
+				"mno": "Qualifier 1 (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Nov 5 2020",
+				"vs": "Mumbai Indians",
+				"teamS": "143/8",
+				"oppS": "200/5",
+				"result": "Mumbai won by 57 runs"
+			},
+			{
+				"mno": "55th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Nov 2 2020",
+				"vs": "Royal Challengers Bangalore",
+				"teamS": "154/4",
+				"oppS": "152/7",
+				"result": "Capitals won by 6 wickets (with 6 balls remaining)"
+			},
+			{
+				"mno": "51st Match",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 31 2020",
+				"vs": "Mumbai Indians",
+				"teamS": "110/9",
+				"oppS": "111/1",
+				"result": "Mumbai won by 9 wickets (with 34 balls remaining)"
+			},
+			{
+				"mno": "47th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 27 2020",
+				"vs": "Sunrisers Hyderabad",
+				"teamS": "131",
+				"oppS": "219/2",
+				"result": "Sunrisers won by 88 runs"
+			},
+			{
+				"mno": "42nd Match",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 24 2020",
+				"vs": "Kolkata Knight Riders",
+				"teamS": "135/9",
+				"oppS": "194/6",
+				"result": "KKR won by 59 runs"
+			},
+			{
+				"mno": "38th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 20 2020",
+				"vs": "Kings XI Punjab",
+				"teamS": "164/5",
+				"oppS": "167/5",
+				"result": "Kings XI won by 5 wickets (with 6 balls remaining)"
+			},
+			{
+				"mno": "34th Match (N)",
+				"mplace": "Sharjah",
+				"mdate": "Oct 17 2020",
+				"vs": "Chennai Super Kings",
+				"teamS": "185/5",
+				"oppS": "179/4",
+				"result": "Capitals won by 5 wickets (with 1 ball remaining)"
+			},
+			{
+				"mno": "30th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 14 2020",
+				"vs": "Rajasthan Royals",
+				"teamS": "161/7",
+				"oppS": "148/8",
+				"result": "Capitals won by 13 runs"
+			},
+			{
+				"mno": "27th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 11 2020",
+				"vs": "Mumbai Indians",
+				"teamS": "162/4",
+				"oppS": "166/5",
+				"result": "Mumbai won by 5 wickets (with 2 balls remaining)"
+			},
+			{
+				"mno": "23rd Match (N)",
+				"mplace": "Sharjah",
+				"mdate": "Oct 9 2020",
+				"vs": "Rajasthan Royals",
+				"teamS": "184/8",
+				"oppS": "138",
+				"result": "Capitals won by 46 runs"
+			},
+			{
+				"mno": "19th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 5 2020",
+				"vs": "Royal Challengers Bangalore",
+				"teamS": "196/4",
+				"oppS": "137/9",
+				"result": "Capitals won by 59 runs"
+			},
+			{
+				"mno": "16th Match (N)",
+				"mplace": "Sharjah",
+				"mdate": "Oct 3 2020",
+				"vs": "Kolkata Knight Riders",
+				"teamS": "228/4",
+				"oppS": "210/8",
+				"result": "Capitals won by 18 runs"
+			},
+			{
+				"mno": "11th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Sep 29 2020",
+				"vs": "Sunrisers Hyderabad",
+				"teamS": "147/7",
+				"oppS": "162/4",
+				"result": "Sunrisers won by 15 runs"
+			},
+			{
+				"mno": "7th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Sep 25 2020",
+				"vs": "Chennai Super Kings",
+				"teamS": "175/3",
+				"oppS": "131/7",
+				"result": "Capitals won by 44 runs"
+			},
+			{
+				"mno": "2nd Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Sep 20 2020",
+				"vs": "Kings XI Punjab",
+				"teamS": "157/8",
+				"oppS": "157/8",
+				"result": "Match tied (Capitals won the one-over eliminator)"
+			}
+		]
+	},
+	{
+		"name": "Mumbai Indians",
+		"matches": [
+			{
+				"mno": "Final (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Nov 10 2020",
+				"vs": "Delhi Capitals",
+				"teamS": "157/5",
+				"oppS": "156/7",
+				"result": "Mumbai won by 5 wickets (with 8 balls remaining)"
+			},
+			{
+				"mno": "Qualifier 1 (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Nov 5 2020",
+				"vs": "Delhi Capitals",
+				"teamS": "200/5",
+				"oppS": "143/8",
+				"result": "Mumbai won by 57 runs"
+			},
+			{
+				"mno": "56th Match (N)",
+				"mplace": "Sharjah",
+				"mdate": "Nov 3 2020",
+				"vs": "Sunrisers Hyderabad",
+				"teamS": "149/8",
+				"oppS": "151/0",
+				"result": "Sunrisers won by 10 wickets (with 17 balls remaining)"
+			},
+			{
+				"mno": "51st Match",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 31 2020",
+				"vs": "Delhi Capitals",
+				"teamS": "111/1",
+				"oppS": "110/9",
+				"result": "Mumbai won by 9 wickets (with 34 balls remaining)"
+			},
+			{
+				"mno": "48th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 28 2020",
+				"vs": "Royal Challengers Bangalore",
+				"teamS": "166/5",
+				"oppS": "164/6",
+				"result": "Mumbai won by 5 wickets (with 5 balls remaining)"
+			},
+			{
+				"mno": "45th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 25 2020",
+				"vs": "Rajasthan Royals",
+				"teamS": "195/5",
+				"oppS": "196/2",
+				"result": "Royals won by 8 wickets (with 10 balls remaining)"
+			},
+			{
+				"mno": "41st Match (N)",
+				"mplace": "Sharjah",
+				"mdate": "Oct 23 2020",
+				"vs": "Chennai Super Kings",
+				"teamS": "116/0",
+				"oppS": "114/9",
+				"result": "Mumbai won by 10 wickets (with 46 balls remaining)"
+			},
+			{
+				"mno": "36th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 18 2020",
+				"vs": "Kings XI Punjab",
+				"teamS": "176/6",
+				"oppS": "176/6",
+				"result": "Match tied (Kings XI won the one-over eliminator)"
+			},
+			{
+				"mno": "32nd Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 16 2020",
+				"vs": "Kolkata Knight Riders",
+				"teamS": "149/2",
+				"oppS": "148/5",
+				"result": "Mumbai won by 8 wickets (with 19 balls remaining)"
+			},
+			{
+				"mno": "27th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 11 2020",
+				"vs": "Delhi Capitals",
+				"teamS": "166/5",
+				"oppS": "162/4",
+				"result": "Mumbai won by 5 wickets (with 2 balls remaining)"
+			},
+			{
+				"mno": "20th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 6 2020",
+				"vs": "Rajasthan Royals",
+				"teamS": "193/4",
+				"oppS": "136",
+				"result": "Mumbai won by 57 runs"
+			},
+			{
+				"mno": "17th Match",
+				"mplace": "Sharjah",
+				"mdate": "Oct 4 2020",
+				"vs": "Sunrisers Hyderabad",
+				"teamS": "208/5",
+				"oppS": "174/7",
+				"result": "Mumbai won by 34 runs"
+			},
+			{
+				"mno": "13th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 1 2020",
+				"vs": "Kings XI Punjab",
+				"teamS": "191/4",
+				"oppS": "143/8",
+				"result": "Mumbai won by 48 runs"
+			},
+			{
+				"mno": "10th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Sep 28 2020",
+				"vs": "Royal Challengers Bangalore",
+				"teamS": "201/5",
+				"oppS": "201/3",
+				"result": "Match tied (RCB won the one-over eliminator)"
+			},
+			{
+				"mno": "5th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Sep 23 2020",
+				"vs": "Kolkata Knight Riders",
+				"teamS": "195/5",
+				"oppS": "146/9",
+				"result": "Mumbai won by 49 runs"
+			},
+			{
+				"mno": "1st Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Sep 19 2020",
+				"vs": "Chennai Super Kings",
+				"teamS": "162/9",
+				"oppS": "166/5",
+				"result": "Super Kings won by 5 wickets (with 4 balls remaining)"
+			}
+		]
+	},
+	{
+		"name": "Sunrisers Hyderabad",
+		"matches": [
+			{
+				"mno": "Qualifier 2 (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Nov 8 2020",
+				"vs": "Delhi Capitals",
+				"teamS": "172/8",
+				"oppS": "189/3",
+				"result": "Capitals won by 17 runs"
+			},
+			{
+				"mno": "Eliminator (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Nov 6 2020",
+				"vs": "Royal Challengers Bangalore",
+				"teamS": "132/4",
+				"oppS": "131/7",
+				"result": "Sunrisers won by 6 wickets (with 2 balls remaining)"
+			},
+			{
+				"mno": "56th Match (N)",
+				"mplace": "Sharjah",
+				"mdate": "Nov 3 2020",
+				"vs": "Mumbai Indians",
+				"teamS": "151/0",
+				"oppS": "149/8",
+				"result": "Sunrisers won by 10 wickets (with 17 balls remaining)"
+			},
+			{
+				"mno": "52nd Match (N)",
+				"mplace": "Sharjah",
+				"mdate": "Oct 31 2020",
+				"vs": "Royal Challengers Bangalore",
+				"teamS": "121/5",
+				"oppS": "120/7",
+				"result": "Sunrisers won by 5 wickets (with 35 balls remaining)"
+			},
+			{
+				"mno": "47th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 27 2020",
+				"vs": "Delhi Capitals",
+				"teamS": "219/2",
+				"oppS": "131",
+				"result": "Sunrisers won by 88 runs"
+			},
+			{
+				"mno": "43rd Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 24 2020",
+				"vs": "Kings XI Punjab",
+				"teamS": "114",
+				"oppS": "126/7",
+				"result": "Kings XI won by 12 runs"
+			},
+			{
+				"mno": "40th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 22 2020",
+				"vs": "Rajasthan Royals",
+				"teamS": "156/2",
+				"oppS": "154/6",
+				"result": "Sunrisers won by 8 wickets (with 11 balls remaining)"
+			},
+			{
+				"mno": "35th Match",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 18 2020",
+				"vs": "Kolkata Knight Riders",
+				"teamS": "163/6",
+				"oppS": "163/5",
+				"result": "Match tied (KKR won the one-over eliminator)"
+			},
+			{
+				"mno": "29th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 13 2020",
+				"vs": "Chennai Super Kings",
+				"teamS": "147/8",
+				"oppS": "167/6",
+				"result": "Super Kings won by 20 runs"
+			},
+			{
+				"mno": "26th Match",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 11 2020",
+				"vs": "Rajasthan Royals",
+				"teamS": "158/4",
+				"oppS": "163/5",
+				"result": "Royals won by 5 wickets (with 1 ball remaining)"
+			},
+			{
+				"mno": "22nd Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 8 2020",
+				"vs": "Kings XI Punjab",
+				"teamS": "201/6",
+				"oppS": "132",
+				"result": "Sunrisers won by 69 runs"
+			},
+			{
+				"mno": "17th Match",
+				"mplace": "Sharjah",
+				"mdate": "Oct 4 2020",
+				"vs": "Mumbai Indians",
+				"teamS": "174/7",
+				"oppS": "208/5",
+				"result": "Mumbai won by 34 runs"
+			},
+			{
+				"mno": "14th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 2 2020",
+				"vs": "Chennai Super Kings",
+				"teamS": "164/5",
+				"oppS": "157/5",
+				"result": "Sunrisers won by 7 runs"
+			},
+			{
+				"mno": "11th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Sep 29 2020",
+				"vs": "Delhi Capitals",
+				"teamS": "162/4",
+				"oppS": "147/7",
+				"result": "Sunrisers won by 15 runs"
+			},
+			{
+				"mno": "8th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Sep 26 2020",
+				"vs": "Kolkata Knight Riders",
+				"teamS": "142/4",
+				"oppS": "145/3",
+				"result": "KKR won by 7 wickets (with 12 balls remaining)"
+			},
+			{
+				"mno": "3rd Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Sep 21 2020",
+				"vs": "Royal Challengers Bangalore",
+				"teamS": "153",
+				"oppS": "163/5",
+				"result": "RCB won by 10 runs"
+			}
+		]
+	},
+	{
+		"name": "Royal Challengers Bangalore",
+		"matches": [
+			{
+				"mno": "Eliminator (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Nov 6 2020",
+				"vs": "Sunrisers Hyderabad",
+				"teamS": "131/7",
+				"oppS": "132/4",
+				"result": "Sunrisers won by 6 wickets (with 2 balls remaining)"
+			},
+			{
+				"mno": "55th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Nov 2 2020",
+				"vs": "Delhi Capitals",
+				"teamS": "152/7",
+				"oppS": "154/4",
+				"result": "Capitals won by 6 wickets (with 6 balls remaining)"
+			},
+			{
+				"mno": "52nd Match (N)",
+				"mplace": "Sharjah",
+				"mdate": "Oct 31 2020",
+				"vs": "Sunrisers Hyderabad",
+				"teamS": "120/7",
+				"oppS": "121/5",
+				"result": "Sunrisers won by 5 wickets (with 35 balls remaining)"
+			},
+			{
+				"mno": "48th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 28 2020",
+				"vs": "Mumbai Indians",
+				"teamS": "164/6",
+				"oppS": "166/5",
+				"result": "Mumbai won by 5 wickets (with 5 balls remaining)"
+			},
+			{
+				"mno": "44th Match",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 25 2020",
+				"vs": "Chennai Super Kings",
+				"teamS": "145/6",
+				"oppS": "150/2",
+				"result": "Super Kings won by 8 wickets (with 8 balls remaining)"
+			},
+			{
+				"mno": "39th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 21 2020",
+				"vs": "Kolkata Knight Riders",
+				"teamS": "85/2",
+				"oppS": "84/8",
+				"result": "RCB won by 8 wickets (with 39 balls remaining)"
+			},
+			{
+				"mno": "33rd Match",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 17 2020",
+				"vs": "Rajasthan Royals",
+				"teamS": "179/3",
+				"oppS": "177/6",
+				"result": "RCB won by 7 wickets (with 2 balls remaining)"
+			},
+			{
+				"mno": "31st Match (N)",
+				"mplace": "Sharjah",
+				"mdate": "Oct 15 2020",
+				"vs": "Kings XI Punjab",
+				"teamS": "171/6",
+				"oppS": "177/2",
+				"result": "Kings XI won by 8 wickets"
+			},
+			{
+				"mno": "28th Match (N)",
+				"mplace": "Sharjah",
+				"mdate": "Oct 12 2020",
+				"vs": "Kolkata Knight Riders",
+				"teamS": "194/2",
+				"oppS": "112/9",
+				"result": "RCB won by 82 runs"
+			},
+			{
+				"mno": "25th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 10 2020",
+				"vs": "Chennai Super Kings",
+				"teamS": "169/4",
+				"oppS": "132/8",
+				"result": "RCB won by 37 runs"
+			},
+			{
+				"mno": "19th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 5 2020",
+				"vs": "Delhi Capitals",
+				"teamS": "137/9",
+				"oppS": "196/4",
+				"result": "Capitals won by 59 runs"
+			},
+			{
+				"mno": "15th Match",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 3 2020",
+				"vs": "Rajasthan Royals",
+				"teamS": "158/2",
+				"oppS": "154/6",
+				"result": "RCB won by 8 wickets (with 5 balls remaining)"
+			},
+			{
+				"mno": "10th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Sep 28 2020",
+				"vs": "Mumbai Indians",
+				"teamS": "201/3",
+				"oppS": "201/5",
+				"result": "Match tied (RCB won the one-over eliminator)"
+			},
+			{
+				"mno": "6th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Sep 24 2020",
+				"vs": "Kings XI Punjab",
+				"teamS": "109",
+				"oppS": "206/3",
+				"result": "Kings XI won by 97 runs"
+			},
+			{
+				"mno": "3rd Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Sep 21 2020",
+				"vs": "Sunrisers Hyderabad",
+				"teamS": "163/5",
+				"oppS": "153",
+				"result": "RCB won by 10 runs"
+			}
+		]
+	},
+	{
+		"name": "Kolkata Knight Riders",
+		"matches": [
+			{
+				"mno": "54th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Nov 1 2020",
+				"vs": "Rajasthan Royals",
+				"teamS": "191/7",
+				"oppS": "131/9",
+				"result": "KKR won by 60 runs"
+			},
+			{
+				"mno": "49th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 29 2020",
+				"vs": "Chennai Super Kings",
+				"teamS": "172/5",
+				"oppS": "178/4",
+				"result": "Super Kings won by 6 wickets"
+			},
+			{
+				"mno": "46th Match (N)",
+				"mplace": "Sharjah",
+				"mdate": "Oct 26 2020",
+				"vs": "Kings XI Punjab",
+				"teamS": "149/9",
+				"oppS": "150/2",
+				"result": "Kings XI won by 8 wickets (with 7 balls remaining)"
+			},
+			{
+				"mno": "42nd Match",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 24 2020",
+				"vs": "Delhi Capitals",
+				"teamS": "194/6",
+				"oppS": "135/9",
+				"result": "KKR won by 59 runs"
+			},
+			{
+				"mno": "39th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 21 2020",
+				"vs": "Royal Challengers Bangalore",
+				"teamS": "84/8",
+				"oppS": "85/2",
+				"result": "RCB won by 8 wickets (with 39 balls remaining)"
+			},
+			{
+				"mno": "35th Match",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 18 2020",
+				"vs": "Sunrisers Hyderabad",
+				"teamS": "163/5",
+				"oppS": "163/6",
+				"result": "Match tied (KKR won the one-over eliminator)"
+			},
+			{
+				"mno": "32nd Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 16 2020",
+				"vs": "Mumbai Indians",
+				"teamS": "148/5",
+				"oppS": "149/2",
+				"result": "Mumbai won by 8 wickets (with 19 balls remaining)"
+			},
+			{
+				"mno": "28th Match (N)",
+				"mplace": "Sharjah",
+				"mdate": "Oct 12 2020",
+				"vs": "Royal Challengers Bangalore",
+				"teamS": "112/9",
+				"oppS": "194/2",
+				"result": "RCB won by 82 runs"
+			},
+			{
+				"mno": "24th Match",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 10 2020",
+				"vs": "Kings XI Punjab",
+				"teamS": "164/6",
+				"oppS": "162/5",
+				"result": "KKR won by 2 runs"
+			},
+			{
+				"mno": "21st Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 7 2020",
+				"vs": "Chennai Super Kings",
+				"teamS": "167",
+				"oppS": "157/5",
+				"result": "KKR won by 10 runs"
+			},
+			{
+				"mno": "16th Match (N)",
+				"mplace": "Sharjah",
+				"mdate": "Oct 3 2020",
+				"vs": "Delhi Capitals",
+				"teamS": "210/8",
+				"oppS": "228/4",
+				"result": "Capitals won by 18 runs"
+			},
+			{
+				"mno": "12th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Sep 30 2020",
+				"vs": "Rajasthan Royals",
+				"teamS": "174/6",
+				"oppS": "137/9",
+				"result": "KKR won by 37 runs"
+			},
+			{
+				"mno": "8th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Sep 26 2020",
+				"vs": "Sunrisers Hyderabad",
+				"teamS": "145/3",
+				"oppS": "142/4",
+				"result": "KKR won by 7 wickets (with 12 balls remaining)"
+			},
+			{
+				"mno": "5th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Sep 23 2020",
+				"vs": "Mumbai Indians",
+				"teamS": "146/9",
+				"oppS": "195/5",
+				"result": "Mumbai won by 49 runs"
+			}
+		]
+	},
+	{
+		"name": "Rajasthan Royals",
+		"matches": [
+			{
+				"mno": "54th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Nov 1 2020",
+				"vs": "Kolkata Knight Riders",
+				"teamS": "131/9",
+				"oppS": "191/7",
+				"result": "KKR won by 60 runs"
+			},
+			{
+				"mno": "50th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 30 2020",
+				"vs": "Kings XI Punjab",
+				"teamS": "186/3",
+				"oppS": "185/4",
+				"result": "Royals won by 7 wickets (with 15 balls remaining)"
+			},
+			{
+				"mno": "45th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 25 2020",
+				"vs": "Mumbai Indians",
+				"teamS": "196/2",
+				"oppS": "195/5",
+				"result": "Royals won by 8 wickets (with 10 balls remaining)"
+			},
+			{
+				"mno": "40th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 22 2020",
+				"vs": "Sunrisers Hyderabad",
+				"teamS": "154/6",
+				"oppS": "156/2",
+				"result": "Sunrisers won by 8 wickets (with 11 balls remaining)"
+			},
+			{
+				"mno": "37th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 19 2020",
+				"vs": "Chennai Super Kings",
+				"teamS": "126/3",
+				"oppS": "125/5",
+				"result": "Royals won by 7 wickets (with 15 balls remaining)"
+			},
+			{
+				"mno": "33rd Match",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 17 2020",
+				"vs": "Royal Challengers Bangalore",
+				"teamS": "177/6",
+				"oppS": "179/3",
+				"result": "RCB won by 7 wickets (with 2 balls remaining)"
+			},
+			{
+				"mno": "30th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 14 2020",
+				"vs": "Delhi Capitals",
+				"teamS": "148/8",
+				"oppS": "161/7",
+				"result": "Capitals won by 13 runs"
+			},
+			{
+				"mno": "26th Match",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 11 2020",
+				"vs": "Sunrisers Hyderabad",
+				"teamS": "163/5",
+				"oppS": "158/4",
+				"result": "Royals won by 5 wickets (with 1 ball remaining)"
+			},
+			{
+				"mno": "23rd Match (N)",
+				"mplace": "Sharjah",
+				"mdate": "Oct 9 2020",
+				"vs": "Delhi Capitals",
+				"teamS": "138",
+				"oppS": "184/8",
+				"result": "Capitals won by 46 runs"
+			},
+			{
+				"mno": "20th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 6 2020",
+				"vs": "Mumbai Indians",
+				"teamS": "136",
+				"oppS": "193/4",
+				"result": "Mumbai won by 57 runs"
+			},
+			{
+				"mno": "15th Match",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 3 2020",
+				"vs": "Royal Challengers Bangalore",
+				"teamS": "154/6",
+				"oppS": "158/2",
+				"result": "RCB won by 8 wickets (with 5 balls remaining)"
+			},
+			{
+				"mno": "12th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Sep 30 2020",
+				"vs": "Kolkata Knight Riders",
+				"teamS": "137/9",
+				"oppS": "174/6",
+				"result": "KKR won by 37 runs"
+			},
+			{
+				"mno": "9th Match (N)",
+				"mplace": "Sharjah",
+				"mdate": "Sep 27 2020",
+				"vs": "Kings XI Punjab",
+				"teamS": "226/6",
+				"oppS": "223/2",
+				"result": "Royals won by 4 wickets (with 3 balls remaining)"
+			},
+			{
+				"mno": "4th Match (N)",
+				"mplace": "Sharjah",
+				"mdate": "Sep 22 2020",
+				"vs": "Chennai Super Kings",
+				"teamS": "216/7",
+				"oppS": "200/6",
+				"result": "Royals won by 16 runs"
+			}
+		]
+	},
+	{
+		"name": "Kings XI Punjab",
+		"matches": [
+			{
+				"mno": "53rd Match",
+				"mplace": "Abu Dhabi",
+				"mdate": "Nov 1 2020",
+				"vs": "Chennai Super Kings",
+				"teamS": "153/6",
+				"oppS": "154/1",
+				"result": "Super Kings won by 9 wickets (with 7 balls remaining)"
+			},
+			{
+				"mno": "50th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 30 2020",
+				"vs": "Rajasthan Royals",
+				"teamS": "185/4",
+				"oppS": "186/3",
+				"result": "Royals won by 7 wickets (with 15 balls remaining)"
+			},
+			{
+				"mno": "46th Match (N)",
+				"mplace": "Sharjah",
+				"mdate": "Oct 26 2020",
+				"vs": "Kolkata Knight Riders",
+				"teamS": "150/2",
+				"oppS": "149/9",
+				"result": "Kings XI won by 8 wickets (with 7 balls remaining)"
+			},
+			{
+				"mno": "43rd Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 24 2020",
+				"vs": "Sunrisers Hyderabad",
+				"teamS": "126/7",
+				"oppS": "114",
+				"result": "Kings XI won by 12 runs"
+			},
+			{
+				"mno": "38th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 20 2020",
+				"vs": "Delhi Capitals",
+				"teamS": "167/5",
+				"oppS": "164/5",
+				"result": "Kings XI won by 5 wickets (with 6 balls remaining)"
+			},
+			{
+				"mno": "36th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 18 2020",
+				"vs": "Mumbai Indians",
+				"teamS": "176/6",
+				"oppS": "176/6",
+				"result": "Match tied (Kings XI won the one-over eliminator)"
+			},
+			{
+				"mno": "31st Match (N)",
+				"mplace": "Sharjah",
+				"mdate": "Oct 15 2020",
+				"vs": "Royal Challengers Bangalore",
+				"teamS": "177/2",
+				"oppS": "171/6",
+				"result": "Kings XI won by 8 wickets"
+			},
+			{
+				"mno": "24th Match",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 10 2020",
+				"vs": "Kolkata Knight Riders",
+				"teamS": "162/5",
+				"oppS": "164/6",
+				"result": "KKR won by 2 runs"
+			},
+			{
+				"mno": "22nd Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 8 2020",
+				"vs": "Sunrisers Hyderabad",
+				"teamS": "132",
+				"oppS": "201/6",
+				"result": "Sunrisers won by 69 runs"
+			},
+			{
+				"mno": "18th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 4 2020",
+				"vs": "Chennai Super Kings",
+				"teamS": "178/4",
+				"oppS": "181/0",
+				"result": "Super Kings won by 10 wickets (with 14 balls remaining)"
+			},
+			{
+				"mno": "13th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 1 2020",
+				"vs": "Mumbai Indians",
+				"teamS": "143/8",
+				"oppS": "191/4",
+				"result": "Mumbai won by 48 runs"
+			},
+			{
+				"mno": "9th Match (N)",
+				"mplace": "Sharjah",
+				"mdate": "Sep 27 2020",
+				"vs": "Rajasthan Royals",
+				"teamS": "223/2",
+				"oppS": "226/6",
+				"result": "Royals won by 4 wickets (with 3 balls remaining)"
+			},
+			{
+				"mno": "6th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Sep 24 2020",
+				"vs": "Royal Challengers Bangalore",
+				"teamS": "206/3",
+				"oppS": "109",
+				"result": "Kings XI won by 97 runs"
+			},
+			{
+				"mno": "2nd Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Sep 20 2020",
+				"vs": "Delhi Capitals",
+				"teamS": "157/8",
+				"oppS": "157/8",
+				"result": "Match tied (Capitals won the one-over eliminator)"
+			}
+		]
+	},
+	{
+		"name": "Chennai Super Kings",
+		"matches": [
+			{
+				"mno": "53rd Match",
+				"mplace": "Abu Dhabi",
+				"mdate": "Nov 1 2020",
+				"vs": "Kings XI Punjab",
+				"teamS": "154/1",
+				"oppS": "153/6",
+				"result": "Super Kings won by 9 wickets (with 7 balls remaining)"
+			},
+			{
+				"mno": "49th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 29 2020",
+				"vs": "Kolkata Knight Riders",
+				"teamS": "178/4",
+				"oppS": "172/5",
+				"result": "Super Kings won by 6 wickets"
+			},
+			{
+				"mno": "44th Match",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 25 2020",
+				"vs": "Royal Challengers Bangalore",
+				"teamS": "150/2",
+				"oppS": "145/6",
+				"result": "Super Kings won by 8 wickets (with 8 balls remaining)"
+			},
+			{
+				"mno": "41st Match (N)",
+				"mplace": "Sharjah",
+				"mdate": "Oct 23 2020",
+				"vs": "Mumbai Indians",
+				"teamS": "114/9",
+				"oppS": "116/0",
+				"result": "Mumbai won by 10 wickets (with 46 balls remaining)"
+			},
+			{
+				"mno": "37th Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 19 2020",
+				"vs": "Rajasthan Royals",
+				"teamS": "125/5",
+				"oppS": "126/3",
+				"result": "Royals won by 7 wickets (with 15 balls remaining)"
+			},
+			{
+				"mno": "34th Match (N)",
+				"mplace": "Sharjah",
+				"mdate": "Oct 17 2020",
+				"vs": "Delhi Capitals",
+				"teamS": "179/4",
+				"oppS": "185/5",
+				"result": "Capitals won by 5 wickets (with 1 ball remaining)"
+			},
+			{
+				"mno": "29th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 13 2020",
+				"vs": "Sunrisers Hyderabad",
+				"teamS": "167/6",
+				"oppS": "147/8",
+				"result": "Super Kings won by 20 runs"
+			},
+			{
+				"mno": "25th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 10 2020",
+				"vs": "Royal Challengers Bangalore",
+				"teamS": "132/8",
+				"oppS": "169/4",
+				"result": "RCB won by 37 runs"
+			},
+			{
+				"mno": "21st Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Oct 7 2020",
+				"vs": "Kolkata Knight Riders",
+				"teamS": "157/5",
+				"oppS": "167",
+				"result": "KKR won by 10 runs"
+			},
+			{
+				"mno": "18th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 4 2020",
+				"vs": "Kings XI Punjab",
+				"teamS": "181/0",
+				"oppS": "178/4",
+				"result": "Super Kings won by 10 wickets (with 14 balls remaining)"
+			},
+			{
+				"mno": "14th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Oct 2 2020",
+				"vs": "Sunrisers Hyderabad",
+				"teamS": "157/5",
+				"oppS": "164/5",
+				"result": "Sunrisers won by 7 runs"
+			},
+			{
+				"mno": "7th Match (N)",
+				"mplace": "Dubai (DSC)",
+				"mdate": "Sep 25 2020",
+				"vs": "Delhi Capitals",
+				"teamS": "131/7",
+				"oppS": "175/3",
+				"result": "Capitals won by 44 runs"
+			},
+			{
+				"mno": "4th Match (N)",
+				"mplace": "Sharjah",
+				"mdate": "Sep 22 2020",
+				"vs": "Rajasthan Royals",
+				"teamS": "200/6",
+				"oppS": "216/7",
+				"result": "Royals won by 16 runs"
+			},
+			{
+				"mno": "1st Match (N)",
+				"mplace": "Abu Dhabi",
+				"mdate": "Sep 19 2020",
+				"vs": "Mumbai Indians",
+				"teamS": "166/5",
+				"oppS": "162/9",
+				"result": "Super Kings won by 5 wickets (with 4 balls remaining)"
+			}
+		]
+	}
+]
