@@ -9,7 +9,7 @@ let args = minimist(process.argv);
 
 console.log('Welcome !!!')
 console.log('Here we will be scrapping myanimelist.com top Mangas')
-console.log('You wanted to scrap',args.pages,'page(s) i.e.',(args.pages)*50,'Manga/LN')
+console.log('You wanted to scrap', args.pages, 'page(s) i.e.', (args.pages) * 50, 'Manga/LN')
 console.log('\nStarting Now ... \n\nThis may take time depending upon your internet speed')
 ScrapeData(args.url, args.pages);
 
@@ -17,7 +17,7 @@ ScrapeData(args.url, args.pages);
 // since genre is not in main page, so we need to open that LN link to take genre
 async function ScrapeData(url, n) {
 
-	try{
+	try {
 
 		let topAnime = [];
 		let links = [];
@@ -26,25 +26,25 @@ async function ScrapeData(url, n) {
 
 			let url1 = url + (i * 50);
 
-			const {data} = await axios.get(url1);
+			const { data } = await axios.get(url1);
 			const $ = cheerio.load(data);
 
 			let animeBlockList = $('tr.ranking-list');
 			console.log(animeBlockList.length)
 
-			animeBlockList.each(function(_, el){
+			animeBlockList.each(function (_, el) {
 
 				details = {};
 
-				details.name = $('h3.manga_h3',el).text();
+				details.name = $('h3.manga_h3', el).text();
 				// details.name = $(el).children('td.title.al.va-t.clearfix.word-break').children('div.detail').children('h3.manga_h3').text();
 
 				let info_list = $('div.information.di-ib.mt4', el).text().trim().split('\n')
 				details.typeVol = info_list[0];
 				details.date = info_list[1].trim();
 
-				details.score = $('.text.on.score-label',el).text();
-				details.link = $('h3.manga_h3 > a',el).attr('href');
+				details.score = $('.text.on.score-label', el).text();
+				details.link = $('h3.manga_h3 > a', el).attr('href');
 
 				topAnime.push(details);
 				links.push(details.link);
@@ -54,39 +54,39 @@ async function ScrapeData(url, n) {
 		// console.log(topAnime)
 
 		let wb = new excel.Workbook();
-		let sheetName = "Top " + n*50 + " Manga LN"
+		let sheetName = "Top " + n * 50 + " Manga LN"
 		let sheet = wb.addWorksheet(sheetName);
 
 		let headingStyle = wb.createStyle({
 
-			alignment : {
-				horizontal : "center"
+			alignment: {
+				horizontal: "center"
 			},
-			font : {
-				bold : true,
-				underline : true,
-				size : 12,
-				color : "white",
+			font: {
+				bold: true,
+				underline: true,
+				size: 12,
+				color: "white",
 			},
-			fill : {
-				type : "pattern",
-				patternType : "solid",
-				fgColor : "black"
+			fill: {
+				type: "pattern",
+				patternType: "solid",
+				fgColor: "black"
 			}
 		});
 
-		let linkStyle = wb.createStyle({font : {color: "blue", underline : true}})
-		let bold = wb.createStyle({font : {bold: true}})
-		let dBlue = wb.createStyle({font : {bold: true, color : "00008B"}})
-		let centerAl = wb.createStyle({alignment : { horizontal : "center"}})
+		let linkStyle = wb.createStyle({ font: { color: "blue", underline: true } })
+		let bold = wb.createStyle({ font: { bold: true } })
+		let dBlue = wb.createStyle({ font: { bold: true, color: "00008B" } })
+		let centerAl = wb.createStyle({ alignment: { horizontal: "center" } })
 
-		sheet.cell(1,1).string("Rank").style(headingStyle);
-		sheet.cell(1,2).string("Name").style(headingStyle);
-		sheet.cell(1,3).string("Volume and Type").style(headingStyle);
-		sheet.cell(1,4).string("Release Date").style(headingStyle);
-		sheet.cell(1,5).string("Score").style(headingStyle);
-		sheet.cell(1,6).string("Genre").style(headingStyle);
-		sheet.cell(1,7).string("Link").style(headingStyle);
+		sheet.cell(1, 1).string("Rank").style(headingStyle);
+		sheet.cell(1, 2).string("Name").style(headingStyle);
+		sheet.cell(1, 3).string("Volume and Type").style(headingStyle);
+		sheet.cell(1, 4).string("Release Date").style(headingStyle);
+		sheet.cell(1, 5).string("Score").style(headingStyle);
+		sheet.cell(1, 6).string("Genre").style(headingStyle);
+		sheet.cell(1, 7).string("Link").style(headingStyle);
 
 		sheet.column(2).setWidth(70);
 		sheet.column(3).setWidth(20);
@@ -97,7 +97,7 @@ async function ScrapeData(url, n) {
 		for (let i = 0; i < topAnime.length; i++) {
 
 			let row = (1 + (i + 1));
-			let rank = row  - 1;
+			let rank = row - 1;
 
 			sheet.cell(row, 1).number(rank).style(centerAl).style(bold);
 			sheet.cell(row, 2).string(topAnime[i].name);
@@ -111,7 +111,7 @@ async function ScrapeData(url, n) {
 		wb.write(args.file)
 
 	}
-	catch(err){
+	catch (err) {
 		console.log(err)
 	}
 }
@@ -122,12 +122,12 @@ async function ScrapeData(url, n) {
 async function getGenre(links, sheet, wb) {
 	try {
 
-		let genreCol = wb.createStyle({font : {color: "#808080"}})
+		let genreCol = wb.createStyle({ font: { color: "#808080" } })
 
-		for (let j = 0; j < links.length ; j++) {
+		for (let j = 0; j < links.length; j++) {
 
-			try{
-				const {data} = await axios.get(links[j]);
+			try {
+				const { data } = await axios.get(links[j]);
 				const $ = cheerio.load(data);
 				let i = 0
 
@@ -142,19 +142,20 @@ async function getGenre(links, sheet, wb) {
 				genre = genre.join(' ')
 
 				// console.log(genre)
-				console.log(j+1,'Mangas / LNs scrapped')
+				console.log(j + 1, 'Mangas / LNs scrapped')
 
 				let row = (1 + (j + 1));
 
 				sheet.cell(row, 6).string(genre.trim()).style(genreCol);
 				wb.write(args.file)
 			}
-			catch{
+			catch {
 				continue
 			}
+
 		}
 	}
-	catch(err){
+	catch (err) {
 		console.log(err)
 	}
 }
