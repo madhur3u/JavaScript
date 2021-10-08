@@ -24,7 +24,7 @@ npm install pdf-lib
 ```bash
 node main.js --excel=ipl2020.xls --folder=IPL2020 --source=https://www.espncricinfo.com/series/ipl-2020-21-1210595/match-results
 ``` 
-6. You can change the folder and excel name according to your choice. If you want to get detail of some other series, just copy that link from [Espn Cricinfo's](https://www.espncricinfo.com/) match and result rection and paste it after source in the above command.
+6. You can change the folder and excel name according to your choice. If you want to get detail of some other series, just copy that link from [Espn Cricinfo's](https://www.espncricinfo.com/) match and result section and paste it after source in the above command.
 7. After execution, the excel file and folders with pdf file will be created.
 
 ## Code Summary
