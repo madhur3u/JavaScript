@@ -1,5 +1,5 @@
 # MyAnimeList Top Manga / LN
-In this we are creating an excel file of all the top mangas in myanimelist section with details like score, release date, type, genre etc. The code is written in JAVASCRIPT and executed using node. 
+In this we are creating an excel file of all the top manga / LNs in myanimelist with details like score, release date, type, genre etc. The code is written in JAVASCRIPT and executed using node. 
 ## Web Scraping
 Web scraping, web harvesting, or web data extraction is data scraping used for extracting data from websites. The web scraping software may directly access the World Wide Web using the Hypertext Transfer Protocol or a web browser. While web scraping can be done manually by a software user, the term typically refers to automated processes implemented using a bot or web crawler. It is a form of copying in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis. - ([_Wikipedia_](https://en.wikipedia.org/wiki/Web_scraping))
 
