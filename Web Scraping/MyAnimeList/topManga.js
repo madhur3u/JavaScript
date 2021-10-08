@@ -152,7 +152,6 @@ async function getGenre(links, sheet, wb) {
 			catch{
 				continue
 			}
-
 		}
 	}
 	catch(err){
