@@ -5,9 +5,9 @@ In this the data of all matches in IPL2020 is scraped from espncricinfo.com. The
 1. .xls Ecxel File. 
 2. Folders of each team is created inside IPL2020 folder and pdfs with match details is created inside each folder. 
 
-## Project Execution
+## Installation and Execution
 
-1. **JavaScript** is the langauage which is used here, to run .js files node must be installed in your system.
+1. **JavaScript** is the langauage used here, to run .js files node must be installed in your system.
 2. [Click Here](https://nodejs.org/en/download/) to download node for your Operating System.   
 3. After installing node, install the **npm modules** listed below using terminal.
 
