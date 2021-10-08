@@ -20,15 +20,15 @@ npm install excel4node
 ```bash
 node topManga.js --url="https://myanimelist.net/topmanga.php?limit=" --pages=1 --file=manga1.xls
 ``` 
-5. A [single page](https://myanimelist.net/topmanga.php) in MyAnimeList displays only 50 results, so if we need more data we need to manipuate the url, in the end we need to add multiples of 50 to go to the next page, this is taken care of in the code. You just need to change the pages in the above command for getting data fro more than 1 page.
+5. A [single page](https://myanimelist.net/topmanga.php) in MyAnimeList displays only 50 results, so if we need more data we need to manipuate the url, in the end we need to add multiples of 50 to go to the next page, this is taken care of in the code. You just need to change the pages in the above command for getting data from more than 1 page.
 6. It may take some minutes to complete the process depending upon your internet speed.
 7. After completion you can find the excel sheet in your folder with all the manga details.
 
 ## Code Summary
-1. Read the command line arguments using minimist (url and output file name).
+1. Read the command line arguments using minimist (url, pages and output file name).
 2. Read the HTML file use axios.
-3. Load the HTML fie using cheerio and with the help of HTML elements and class read the necessary data from the page.
-4. In the main page we have all the information which we need except genre, so for genre we need to open the manga / LN link in our code and get that data. This is done by creating an array with links of all manga / LN in order, after the main page is completely processed, we call our genre function which write genre in our excel file by getting the data from their link.
+3. Load the HTML file using cheerio and with the help of HTML elements and class read the necessary data from the page.
+4. In the main page we have all the information which we need except genre, so for genre we need to open the manga / LN link in our code and get that data. This is done by creating an array with links of all manga / LN in order, after the main page is completely processed, we call our genre function which write genre in our excel file from the links stored previously.
 5. Storing the data in a JSO and then writing it into our excel file using excel4node module.
 
 ## Extra Exercise
