@@ -32,5 +32,5 @@ node topManga.js --url="https://myanimelist.net/topmanga.php?limit=" --pages=1 -
 5. Storing the data in a JSO and then writing it into our excel file using excel4node module.
 
 ## Extra Exercise
-1. You can get more details like description, voice actor details, character details etc., when we are opening our main page of the manga in getGenre() function.
+1. You can get more details like description, author details, alternative names, character details etc., when we are opening our main page of the manga in getGenre() function.
 2. The same exercise can be done to get data of top anime by changing some HTML elements and classes.
