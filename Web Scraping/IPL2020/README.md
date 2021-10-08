@@ -33,4 +33,5 @@ node main.js --excel=ipl2020.xls --folder=IPL2020 --source=https://www.espncrici
 3. Using HTML elements and their class read the data which we need and push it into a JSO object.
 4. Using the above JSO object with all match details we make another JSO which has team details using array manipulation.
 5. Using the teams JSO and excel4node create an excel file with every team match details in a sheet.
-6. Make folders using fs and pdf-files using pdf-lib.
+6. Make folders using fs.
+7. Make a template.pdf using MS Word beforehand, and add the data in that pdf for each team and its matches using pdf-lib.
