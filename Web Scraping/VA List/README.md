@@ -37,4 +37,4 @@ node main.js
 
 ## Extra Exercise
 1. You can add or delete links and try for your favourite voice actors.
-2. You can also try to get more information from the page like theme song performances comments etc.
+2. You can also try to get more information from the page like theme song performances, comments etc.
