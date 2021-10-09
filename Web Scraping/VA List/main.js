@@ -25,8 +25,6 @@ let urls =
 
 ScrapeData(urls , urls.length);
 
-// this function is getting all data which is in list pages
-// since genre is not in main page, so we need to open that LN link to take genre
 async function ScrapeData(url , n) {
 
     try {
