@@ -1,4 +1,4 @@
-# Voice Actors Details
+# Voice Actors Detail
 In this we are creating an excel file with details of all the VAs (links in code) like Name, Details, Anime they featured in and their character details. In the excel file there are multiple sheets, each sheet contains details of one VA.
 
 1. [CODE](https://github.com/madhur3u/JavaScript/blob/main/Web%20Scraping/VA%20List/main.js)
