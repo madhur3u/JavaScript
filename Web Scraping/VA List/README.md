@@ -2,7 +2,7 @@
 In this we are creating an excel file with details of all the VAs (links in code) like Name, Details, Anime they featured in and their character details. In the excel file there are multiple sheets, each sheet contains details of one VA.
 
 1. [CODE](https://github.com/madhur3u/JavaScript/blob/main/Web%20Scraping/VA%20List/main.js)
-2. [JSON FILE](https://github.com/madhur3u/JavaScript/blob/main/Web%20Scraping/VA%20List/va.json) _open this in VSCode and format document_
+2. [JSON FILE](https://github.com/madhur3u/JavaScript/blob/main/Web%20Scraping/VA%20List/va.json)
 3. [EXCEL SHEET](https://github.com/madhur3u/JavaScript/blob/main/Web%20Scraping/VA%20List/va.xls)
 ## Web Scraping
 Web scraping, web harvesting, or web data extraction is data scraping used for extracting data from websites. The web scraping software may directly access the World Wide Web using the Hypertext Transfer Protocol or a web browser. While web scraping can be done manually by a software user, the term typically refers to automated processes implemented using a bot or web crawler. It is a form of copying in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis. - ([_Wikipedia_](https://en.wikipedia.org/wiki/Web_scraping))
