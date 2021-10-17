@@ -1,5 +1,9 @@
 # Web Automation - HackerRank Problem Solver
 
+<img src="https://user-images.githubusercontent.com/89251393/137632878-c1922c94-ffdf-4b10-b401-82f014097708.png" width="80"/>  <img src="https://user-images.githubusercontent.com/89251393/137633064-51443d8b-1e2e-4f6d-8612-aeddcdfe3b4f.png" width="50"/>  <img src="https://user-images.githubusercontent.com/89251393/137633513-09436b0b-fafb-4efb-8a62-b03a1d3f8e1d.png" width="70"/> <img src="https://user-images.githubusercontent.com/89251393/137633548-8c3ddff2-1eb7-4672-9054-6803404eeb6f.png" width="100"/>
+
+
+
 In this activity I have made an automation script which can solve all the unsolved questions from HackerRank JAVA section. The script is written in JavaScript and automation is done using Puppeteer NPM module.
 
 [JSON file](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/java.json)
