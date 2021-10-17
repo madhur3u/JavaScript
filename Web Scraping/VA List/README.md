@@ -10,7 +10,7 @@ Web scraping, web harvesting, or web data extraction is data scraping used for e
 ## Installation and Execution
 
 1. **JavaScript** is the langauage used here, to run .js files node must be installed in your system. [Click Here](https://nodejs.org/en/download/) to download node for your Operating System.   
-3. After installing node, install the **npm modules** listed below using terminal.
+2. After installing node, install the **npm modules** listed below using terminal.
 
 ```bash
 npm init -y
