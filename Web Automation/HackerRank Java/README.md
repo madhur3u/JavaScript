@@ -14,12 +14,12 @@ Motive behind this activity is to learn JavaScript and Web Automation.
 
 ## Contents
 
-1.  [Web Scraping And Automation](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/README.md#web-scraping-and-automation)
-2.  [Installation](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/README.md#installation)
-3.  [Creating Answers JSON File](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/README.md#creating-answers-json-file)
-4.  [Creating Automation Script](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/README.md#creating-automation-script)
-5.  [Try It Yourself](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/README.md#try-it-yourself)
-6.  [Other Exercises You Can Try](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/README.md#other-exercises-you-can-try)
+1.  [Web Scraping And Automation](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java#web-scraping-and-automation)
+2.  [Installation](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java#installation)
+3.  [Creating Answers JSON File](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java#creating-answers-json-file)
+4.  [Creating Automation Script](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java#creating-automation-script)
+5.  [Try It Yourself](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java#try-it-yourself)
+6.  [Other Exercises You Can Try](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java#other-exercises-you-can-try)
 
 ## Web Scraping And Automation
 
@@ -109,7 +109,7 @@ The script will be doing the following tasks.
 
 If you want to try how this is working you just need to follow these steps.
 
-1.  Install node and required NPM modules as [explained above](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/README.md#installation).
+1.  Install node and required NPM modules as [explained above](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java#installation).
 2.  Download the [JSON file](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/java.json) and [Script](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/script.js).
 3.  Make a folder in your PC and place the above downloaded file in it. Open terminal in this folder and type the command given below in your terminal.
 
