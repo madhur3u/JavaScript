@@ -111,8 +111,6 @@ The script will be doing the following tasks.
 
 ## Try It Yourself
 
-If you want to try how this is working you just need to follow these steps.
-
 1.  Install node and required NPM modules as [explained above](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java#installation).
 2.  Download the [JSON file](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/java.json) and [Script](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/script.js).
 3.  Make a folder in your PC and place the above downloaded file in it. Open terminal in this folder and type the command given below in your terminal.
