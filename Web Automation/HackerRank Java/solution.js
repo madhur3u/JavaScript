@@ -10,59 +10,59 @@ console.log('Welcome !!!');
 
 (async function(){
 
-	const {data} = await axios.get('https://github.com/Java-aid/Hackerrank-Solutions#java');
+    const {data} = await axios.get('https://github.com/Java-aid/Hackerrank-Solutions#java');
     const $ = cheerio.load(data);
-	
-	// td:nth-child(2) a
+    
+    // td:nth-child(2) a
 
-	let block = $('h1:contains("JAVA")').next().children('tbody').children('tr');
-	console.log(block.length);
+    let block = $('h1:contains("JAVA")').next().children('tbody').children('tr');
+    console.log(block.length);
 
-	let ans = [];
+    let ans = [];
 
-	block.each(function(_, el){
+    block.each(function(_, el){
 
-		let d = {
-			name: '',
-			link: '',
-			sol: ''
-		}
+        let d = {
+            name: '',
+            link: '',
+            sol: ''
+        }
 
-		d.name = $('td:nth-child(2) a', el).text();
-		d.link = $('td:nth-child(3) a', el).prop('href');
-		console.log(d.name , d.link);
+        d.name = $('td:nth-child(2) a', el).text();
+        d.link = $('td:nth-child(3) a', el).prop('href');
+        console.log(d.name , d.link);
 
-		ans.push(d);
-		// fs.writeFileSync('java2.json', JSON.stringify(ans), 'utf-8');
+        ans.push(d);
+        // fs.writeFileSync('java2.json', JSON.stringify(ans), 'utf-8');
 
-	})
-	answer(ans);
+    })
+    answer(ans);
 
 })();
 
 async function answer(ans){
 
-	for (let i = 0; i < ans.length; i++) {
-		
-		try{
-			const {data} = await axios.get(ans[i].link);
-	    	const $ = cheerio.load(data);	
-			
-			let lines = '';
+    for (let i = 0; i < ans.length; i++) {
+        
+        try{
+            const {data} = await axios.get(ans[i].link);
+            const $ = cheerio.load(data);	
+            
+            let lines = '';
 
-			let code = $('div[itemprop="text"] > table > tbody > tr > td');
-			code.each(function(_, el){
-				let line = $(el).text();
-				lines += line.trim() + '\n';
-			})
+            let code = $('div[itemprop="text"] > table > tbody > tr > td');
+            code.each(function(_, el){
+                let line = $(el).text();
+                lines += line.trim() + '\n';
+            })
 
-			ans[i].sol = lines;
-		}
-		catch{
-			ans[i].sol = 'Solution Not Found In Provied Link'
-		}
+            ans[i].sol = lines;
+        }
+        catch{
+            ans[i].sol = 'Solution Not Found In Provied Link'
+        }
 
-		console.log(i+1,'done');
-	}
-	fs.writeFileSync('java2.json', JSON.stringify(ans), 'utf-8');
+        console.log(i+1,'done');
+    }
+    fs.writeFileSync('java.json', JSON.stringify(ans), 'utf-8');
 }
