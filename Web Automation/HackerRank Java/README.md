@@ -2,14 +2,15 @@
 
 In this activity I have made an automation script which can solve all the unsolved questions from HackerRank JAVA section. The script is written in JavaScript and automation is done using Puppeteer NPM module.
 
-JSON file
-Automation script
+[JSON file](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/java.json)
+
+[Automation script](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/script.js)
 
 Motive behind this activity is to learn JavaScript and Web Automation.
 
 > **DISCLAIMER**
 > 
-> This project is only made for learning purposes. It does not promote cheating and copying anyone's work to achieve any target. Do not use this script for solving questions in your HackerRank account. If you want to try this make a temporary account and try in that.
+> This project is only made for learning purposes. It does not promote cheating and copying anyone's work to achieve any target. Do not use this script for solving questions in your HackerRank account. Using automation to solve question may lead to permanent ban of your HackerRank ID. If you want to try this make a temporary account and try in that.
 
 ## Contents
 
@@ -40,7 +41,7 @@ npm install puppeteer
 
 ## Creating Answers JSON File
 
-First step is to create a JSON file (*java.json*) which will have solution to each problem from the [JAVA Questions Page](https://www.hackerrank.com/domains/java). This can be achieved by scraping answers from GitHub. You can easily find many GitHub repositories which will have solutions of the questions we need.
+First step is to create a JSON file ([*java.json*](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/java.json)) which will have solution to each problem from the [JAVA Questions Page](https://www.hackerrank.com/domains/java). This can be achieved by scraping answers from GitHub. You can easily find many GitHub repositories which will have solutions of the questions we need.
 
 > Solutions used in this activity are taken from many sources majority of which are from the two repositories mentioned below.
 
@@ -52,14 +53,14 @@ First step is to create a JSON file (*java.json*) which will have solution to ea
 Rather than taking solutions from one sources at least two must be used. Since the solutions might be wrong or outdated so we have to be careful while choosing them.
 One way is to make two JSON files from two sources and *run the main code* using both files. We will now have list of all those questions which are wrong in a particular file. Just replace the wrong solutions from one file with correct solutions from other files. Sometimes you may have to look for solutions from other sources too. **This is the most time consuming part of this activity.**
 
-```js
+```javascript
 const {data} = await axios.get('https://github.com/Java-aid/Hackerrank-Solutions#java');
 fs.writeFileSync('java.json', JSON.stringify(ans), 'utf-8');
 ```
 
-*Replace the link and filename in above expressions in solution.js file while scraping data from other sources.*
+*Replace the link and filename in above expressions in [solution.js](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/solution.js) file while scraping data from other sources.*
 
-Using the above approach I have created *java.json* file.
+Using the above approach I have created the [*java.json*](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/java.json) file.
 
 ### Scraping Data
 
@@ -83,7 +84,7 @@ ans[i].sol = lines;
 
 ## Creating Automation Script
 
-We have our JSON file with all correct answers. Now we need to create an automation script which will submit every question. The script is created using **puppeteer** npm module.
+We have our [JSON file](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/java.json) with all correct answers. Now we need to create an automation script which will submit every question. The [Automation script](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/script.js) is created using **puppeteer** npm module.
 [**Puppeteer**](https://github.com/puppeteer/puppeteer) is a Node library which provides a high-level API to control Chrome or Chromium over the DevTools Protocol. Puppeteer runs headless by default, but can be configured to run full (non-headless) Chrome or Chromium.
 
 The script will be doing the following tasks.
@@ -97,7 +98,7 @@ The script will be doing the following tasks.
 7.  Type the solution and click on submit.
 8.  After submission close the current tab and open next question. This process will repeat till every question is solved.
 9.  Close the browser after every question is submitted.
-10. A details.txt file is also created which will have name and status of every question. If any question is not submitted successfully you can check that in this file.
+10. A [details.txt]() file is also created which will have name and status of every question. If any question is not submitted successfully you can check that in this file.
 
 ### Possible Reasons For Getting Errors
 
@@ -108,17 +109,17 @@ The script will be doing the following tasks.
 
 If you want to try how this is working you just need to follow these steps.
 
-1.  Install node and required NPM modules as explained above.
-2.  Download the JSON file and Script.
+1.  Install node and required NPM modules as [explained above](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/README.md#installation).
+2.  Download the [JSON file](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/java.json) and [Script](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/script.js).
 3.  Make a folder in your PC and place the above downloaded file in it. Open terminal in this folder and type the command given below in your terminal.
 
-```
+```javascript
 node script.js username password java.json
 ```
 
 *Replace the username and password with the userid and password of the temporary account you created.*
 
-> I once again request you for not using your original account for this activity, make a temporary account for this. If you try to solve questions using automation your HackerRank ID may get blocked therefore it is advisable to use a Temporary account
+> I once again request you for not using your original account for this activity, make a temporary account for this. If you try to solve questions using automation your HackerRank ID may get blocked therefore it is advisable to use a Temporary Account.
 
 > [Click Here](https://temp-mail.org/en/) to make temporary account using temp mail.
 
