@@ -3,6 +3,8 @@
 <img src="https://user-images.githubusercontent.com/89251393/137632878-c1922c94-ffdf-4b10-b401-82f014097708.png" width="80"/>  <img src="https://user-images.githubusercontent.com/89251393/137633064-51443d8b-1e2e-4f6d-8612-aeddcdfe3b4f.png" width="50"/>  <img src="https://user-images.githubusercontent.com/89251393/137633513-09436b0b-fafb-4efb-8a62-b03a1d3f8e1d.png" width="70"/> <img src="https://user-images.githubusercontent.com/89251393/137633548-8c3ddff2-1eb7-4672-9054-6803404eeb6f.png" width="100"/>
 
 
+<!-- https://user-images.githubusercontent.com/89251393/137719629-3f46db53-0148-41c2-a548-2135f4613721.mp4 -->
+
 
 In this activity I have made an automation script which can solve all the unsolved questions from HackerRank JAVA section. The script is written in JavaScript and automation is done using Puppeteer NPM module.
 
@@ -10,11 +12,16 @@ In this activity I have made an automation script which can solve all the unsolv
 
 [Automation script](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/script.js)
 
+[details.txt](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/details.txt)
+
 Motive behind this activity is to learn JavaScript and Web Automation.
 
 > **DISCLAIMER**
 > 
 > This project is only made for learning purposes. It does not promote cheating and copying anyone's work to achieve any target. Do not use this script for solving questions in your HackerRank account. Using automation to solve question may lead to permanent ban of your HackerRank ID. If you want to try this make a temporary account and try in that.
+
+
+https://user-images.githubusercontent.com/89251393/137719629-3f46db53-0148-41c2-a548-2135f4613721.mp4
 
 ## Contents
 
@@ -102,12 +109,16 @@ The script will be doing the following tasks.
 7.  Type the solution and click on submit.
 8.  After submission close the current tab and open next question. This process will repeat till every question is solved.
 9.  Close the browser after every question is submitted.
-10. A [details.txt]() file is also created which will have name and status of every question. If any question is not submitted successfully you can check that in this file.
+10. A [details.txt](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/details.txt) file is also created which will have name and status of every question. If any question is not submitted successfully you can check that in this file.
+
+<img src="https://user-images.githubusercontent.com/89251393/137720623-d995fba9-e427-4e7f-b1eb-0a5c5525de53.png" width="600"/>
+
 
 ### Possible Reasons For Getting Errors
 
 1.  Check your Internet connection. `await page.waitForSelector()` has a timeout of 30 seconds, so if it is unable to find the selector within 30 seconds, it will throw an error.
 2.  If the question is not getting submitted, check the name of question in JSON file. The name of question in JSON file and main link should be same. Also there may be few cases like `new questions are added` in the link or `question is changed`.
+3.  In case of timeout error, run the script one more time, if error was due to internet speed or some problem from hackerrank site it will submit successfully in 2nd chance.
 
 ## Try It Yourself
 
@@ -125,7 +136,7 @@ node script.js username password java.json
 
 > [Click Here](https://temp-mail.org/en/) to make temporary account using temp mail.
 
-4.  The automation process may take up to 10 - 20 minutes depending upon your internet speed and processor. The browser will close automatically after completion.
+4.  The automation process may take up to 20 - 50 minutes depending upon your internet speed and processor. The browser will close automatically after completion.
 5.  A *details.txt* file will be created in your folder which will have details of submission of each question.
 
 ## Other Exercises You Can Try
