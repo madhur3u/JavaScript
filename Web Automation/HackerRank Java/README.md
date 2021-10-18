@@ -6,7 +6,7 @@
 <!-- https://user-images.githubusercontent.com/89251393/137719629-3f46db53-0148-41c2-a548-2135f4613721.mp4 -->
 
 
-In this activity I have made an automation script which can solve all the unsolved questions from HackerRank JAVA section. The script is written in JavaScript and automation is done using Puppeteer NPM module.
+In this activity I have made an automation script which can solve all unsolved questions from HackerRank JAVA section. The script is written in JavaScript and automation is done using Puppeteer NPM module.
 
 [JSON file](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java/java.json)
 
