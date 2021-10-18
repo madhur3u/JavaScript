@@ -23,6 +23,8 @@ Motive behind this activity is to learn JavaScript and Web Automation.
 
 https://user-images.githubusercontent.com/89251393/137719629-3f46db53-0148-41c2-a548-2135f4613721.mp4
 
+*automation process snippet*
+
 ## Contents
 
 1.  [Web Scraping And Automation](https://github.com/madhur3u/JavaScript/blob/main/Web%20Automation/HackerRank%20Java#web-scraping-and-automation)
@@ -113,12 +115,17 @@ The script will be doing the following tasks.
 
 <img src="https://user-images.githubusercontent.com/89251393/137720623-d995fba9-e427-4e7f-b1eb-0a5c5525de53.png" width="600"/>
 
+*details.txt file after completion*
 
 ### Possible Reasons For Getting Errors
 
 1.  Check your Internet connection. `await page.waitForSelector()` has a timeout of 30 seconds, so if it is unable to find the selector within 30 seconds, it will throw an error.
 2.  If the question is not getting submitted, check the name of question in JSON file. The name of question in JSON file and main link should be same. Also there may be few cases like `new questions are added` in the link or `question is changed`.
 3.  In case of timeout error, run the script one more time, if error was due to internet speed or some problem from hackerrank site it will submit successfully in 2nd chance.
+
+![Screenshot from 2021-10-18 16-59-16](https://user-images.githubusercontent.com/89251393/137722390-4b1a3be5-93f5-423f-a7aa-c3f254d94dbe.png)
+*after successful run of the script*
+
 
 ## Try It Yourself
 
@@ -129,6 +136,9 @@ The script will be doing the following tasks.
 ```javascript
 node script.js username password java.json
 ```
+
+
+<img src="https://user-images.githubusercontent.com/89251393/137723452-bfee1d90-bf5f-4784-ae77-f6d445c58d75.png" width="600"/>
 
 *Replace the username and password with the userid and password of the temporary account you created.*
 
