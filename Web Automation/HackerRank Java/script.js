@@ -1,4 +1,4 @@
-// node java5star.js username password java.json
+// node script.js miku3 12345678900 java.json
 // npm i puppeteer
 
 const puppeteer = require('puppeteer');
@@ -13,7 +13,6 @@ console.log(args[4])
 let dataJ = fs.readFileSync(args[4], 'utf-8');
 let data = JSON.parse(dataJ);
 
-
 (async function () {
 
     // opening browser
@@ -24,10 +23,15 @@ let data = JSON.parse(dataJ);
             args: ['--start-maximized']
         }
     );
+    
+    console.log("Browser Open");
 
     const pages = await browser.pages();
+    // selecting 1st tab
     const page = pages[0];
     
+    await delay(5000);
+
     // opening site
     await page.goto('https://www.hackerrank.com/auth/login');
     // input credentials and click on login
@@ -36,36 +40,42 @@ let data = JSON.parse(dataJ);
     await delay(2000);
 
     await page.click('button[data-analytics="LoginPassword"]', { delay: 100 });
-    
+    console.log("Login Complete");
+
     // since we are automating for all java questions, so wait and click on java
     await waitandclick(page, 'div[data-automation="java"]');
+    console.log("Opening JAVA Section");
 
     // now we need to solve all questions, which are unsolved so clicked on unsolved
     await waitandclick(page, 'input[value="unsolved"]');
+    console.log("Click on unsolved to get all unsolved question in page");
     await delay(2000);
-    
+
     // now we need to load all the questions first so scroll till end first
-    // this is used to scroll till we have all questions loaded (800 is use arbitarily here, have to inc or dec value depending on questions)
-    let blocks = await page.$$('a[class="js-track-click challenge-list-item"]');
+    // this is used to scroll till we have all questions loaded (1000 is use arbitarily here, have to inc or dec value depending on questions)
     let i = 0
-    while (i < 800) {
+    console.log("Scrolling Down");
+    while (i < 1000) {
         await page.keyboard.press('ArrowDown');
-        blocks = await page.$$('a[class="js-track-click challenge-list-item"]');
+        if(i%100 == 0) await delay(500);
         i++;
     }
+    console.log("Scrolling complete");
 
     // now we need to take out link of every unsolved question, so 1st take all elements in blocks,  $$ --> queryselectorAll
     blocks = await page.$$('a[class="js-track-click challenge-list-item"]');
     // take out the href from blocks (a)
     const link_temp = await Promise.all(
-          blocks.map(handle => handle.getProperty('href'))
+        blocks.map(handle => handle.getProperty('href'))
     );
     // convert it to string
     const links = await Promise.all(
         link_temp.map(handle => handle.jsonValue())
     );
 
-    console.log(links);
+
+    // console.log(links);
+    console.log("Total number of unsolved questions are");
     console.log(links.length);
 
     // now we have all links in an array of UNSOLVED questions --> links[]
@@ -73,11 +83,13 @@ let data = JSON.parse(dataJ);
     i = 0
     details = []
     while (i < links.length) {
-        
+    
+    	console.log("Solving",i+1,"question");
+
         // opening each link in new tab
         const page2 = await browser.newPage();
         // this will bring new tab to front
-        await page2.bringToFront(); 
+        await page2.bringToFront();
         await page2.goto(links[i]);
 
         // taking out the name of question in head
@@ -86,16 +98,16 @@ let data = JSON.parse(dataJ);
         const head = await page2.evaluate(element => element.textContent, element);
 
         d = {
-            'Question' : '',
-            'Status' : ''
+            'Question': '',
+            'Status': ''
         }
         d.Question = head + '\n';
 
         // this function code will write and submit our code and return its status submitted / not submitted
         d.Status = await code(page2, head)
 
-        console.log(i+1,d.Question)
-        console.log(d.Status)
+        console.log(i + 1, d.Question)
+        console.log(d.Status.slice(0, 25))
 
         details.push(d)
 
@@ -109,7 +121,7 @@ let data = JSON.parse(dataJ);
     // writing every question and its status in a file
     i = 0
     fs.writeFileSync('details.txt', '', 'utf-8');
-    while(i < details.length){
+    while (i < details.length) {
 
         fs.appendFileSync('details.txt', 'Question : ', 'utf-8')
         fs.appendFileSync('details.txt', details[i].Question, 'utf-8')
@@ -133,11 +145,11 @@ async function code(page, head) {
             break;
         }
     }
-    if (index == -1){
+    if (index == -1) {
         return ' Not Submitted - Question Not Found\nPossible Errors :\n1. This might have been a new question or\n2. Name of question is different in JSON file\n\n';
     }
 
-    try{
+    try {
         await waitandclick(page, '.checkbox-wrap');
         await delay(200);
         await page.type('#input-1', data[index].sol);
@@ -158,18 +170,18 @@ async function code(page, head) {
         await page.keyboard.press('V');
         await page.keyboard.up('Control');
 
-        try{
+        try {
             await page.click('button.hr-monaco-submit', { delay: 20 });
 
             await page.waitForSelector('.compiler-message__value');
             let element = await page.$(".compiler-message__value");
             let msg = await page.evaluate(element => element.textContent, element);
 
-            if (msg.trim() == 'Success'){
+            if (msg.trim() == 'Success') {
 
                 return ' Submitted Successfully\n\n';
             }
-            else{
+            else {
 
                 await page.click('.css-2b097c-container');
                 await delay(200);
@@ -188,24 +200,24 @@ async function code(page, head) {
                 let element = await page.$(".compiler-message__value");
                 let msg = await page.evaluate(element => element.textContent, element);
 
-                if (msg.trim() == 'Success'){
+                if (msg.trim() == 'Success') {
 
                     return ' Submitted Successfully\n\n';
                 }
             }
         }
-        catch{
+        catch {
             return ' Timeout while waiting for Submission - Slow internet connection or large testcases - Check manually\n\n'
         }
 
         return ' Not Submitted\nPossible Errors :\n1. Question Might Have Changed\n2. The Solution in JSON file might be wrong\n3. It might have submitted but success screen took time to appear\n\n';
     }
-    catch{
+    catch {
         // return 'Error - The Editor is Different - Do this manually'
 
         await waitandclick(page, '#customtestcase');
         await delay(200);
-        await page.type('#custominput',  data[index].sol)
+        await page.type('#custominput', data[index].sol)
 
         await page.keyboard.down('Control');
         await page.keyboard.press('A');
@@ -230,7 +242,7 @@ async function code(page, head) {
         let element = await page.$(".compiler-message__value > code");
         let msg = await page.evaluate(element => element.textContent, element);
 
-        if (msg.trim() == 'Success'){
+        if (msg.trim() == 'Success') {
 
             return ' Submitted Successfully\n\n';
         }
@@ -240,13 +252,13 @@ async function code(page, head) {
 
 // to give delay, using this insted of waitFor
 function delay(time) {
-    return new Promise(function(resolve) { 
+    return new Promise(function (resolve) {
         setTimeout(resolve, time)
     });
 }
 
 // wait for selector and then click
 async function waitandclick(page, s) {
-    await page.waitForSelector(s, {timeout: 10000});
+    await page.waitForSelector(s, { timeout: 10000 });
     await page.click(s, { delay: 500 })
 }
