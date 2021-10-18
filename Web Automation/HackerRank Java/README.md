@@ -80,7 +80,7 @@ Using the above approach I have created the [*java.json*](https://github.com/mad
 `Axios` is used to load the HTML file.
 `Cheerio` is used to get data from the HTML file.
 
-After loading the HTML file first we need to save **name of each question** and **link to its solution** in an array. We then use this array to open every link and store **solution** from each link in our array.
+After loading the HTML file first we need to save **name of each question** and **link to its solution** in an array. We then use this array to open every link and store **solution** from each link in same array.
 
 ```javascript
 d.name = $('td:nth-child(2) a', el).text();
