@@ -1,0 +1,192 @@
+Question : Welcome to Java!
+Status :  Submitted Successfully
+
+Question :  Java Stdin and Stdout I
+Status :  Submitted Successfully
+
+Question : Java If-Else
+Status :  Submitted Successfully
+
+Question : Java Stdin and Stdout II
+Status :  Submitted Successfully
+
+Question : Java Output Formatting
+Status :  Submitted Successfully
+
+Question : Java Loops I
+Status :  Submitted Successfully
+
+Question : Java Loops II
+Status :  Submitted Successfully
+
+Question : Java Datatypes
+Status :  Submitted Successfully
+
+Question : Java End-of-file
+Status :  Submitted Successfully
+
+Question : Java Static Initializer Block
+Status :  Submitted Successfully
+
+Question : Java Int to String
+Status :  Submitted Successfully
+
+Question : Java Date and Time
+Status :  Submitted Successfully
+
+Question : Java Currency Formatter
+Status :  Submitted Successfully
+
+Question : Java Strings Introduction
+Status :  Submitted Successfully
+
+Question : Java Substring
+Status :  Submitted Successfully
+
+Question : Java Substring Comparisons
+Status :  Submitted Successfully
+
+Question : Java String Reverse
+Status :  Submitted Successfully
+
+Question : Java Anagrams
+Status :  Submitted Successfully
+
+Question : Java String Tokens
+Status :  Submitted Successfully
+
+Question : Pattern Syntax Checker
+Status :  Submitted Successfully
+
+Question : Java Regex
+Status :  Submitted Successfully
+
+Question : Java Regex 2 - Duplicate Words
+Status :  Submitted Successfully
+
+Question : Valid Username Regular Expression
+Status :  Submitted Successfully
+
+Question : Tag Content Extractor
+Status :  Submitted Successfully
+
+Question : Java BigDecimal
+Status :  Submitted Successfully
+
+Question : Java Primality Test
+Status :  Submitted Successfully
+
+Question : Java BigInteger
+Status :  Submitted Successfully
+
+Question : Java 1D Array
+Status :  Submitted Successfully
+
+Question : Java 2D Array
+Status :  Submitted Successfully
+
+Question : Java Subarray
+Status :  Submitted Successfully
+
+Question : Java Arraylist
+Status :  Submitted Successfully
+
+Question : Java 1D Array (Part 2)
+Status :  Submitted Successfully
+
+Question : Java List
+Status :  Submitted Successfully
+
+Question : Java Map
+Status :  Submitted Successfully
+
+Question : Java Stack
+Status :  Submitted Successfully
+
+Question : Java Hashset
+Status :  Submitted Successfully
+
+Question : Java Generics
+Status :  Submitted Successfully
+
+Question : Java Comparator
+Status :  Submitted Successfully
+
+Question : Java Sort
+Status :  Submitted Successfully
+
+Question : Java Dequeue
+Status :  Submitted Successfully
+
+Question : Java BitSet
+Status :  Submitted Successfully
+
+Question : Java Priority Queue
+Status :  Timeout while waiting for Submission - Slow internet connection or large testcases - Check manually
+
+Question : Java Inheritance I
+Status :  Submitted Successfully
+
+Question : Java Inheritance II
+Status :  Submitted Successfully
+
+Question : Java Abstract Class
+Status :  Submitted Successfully
+
+Question : Java Interface
+Status :  Submitted Successfully
+
+Question : Java Method Overriding
+Status :  Submitted Successfully
+
+Question : Java Method Overriding 2 (Super Keyword)
+Status :  Submitted Successfully
+
+Question : Java Instanceof keyword
+Status :  Submitted Successfully
+
+Question : Java Iterator
+Status :  Submitted Successfully
+
+Question : Java Exception Handling (Try-catch)
+Status :  Submitted Successfully
+
+Question : Java Exception Handling
+Status :  Submitted Successfully
+
+Question : Java Varargs - Simple Addition
+Status :  Submitted Successfully
+
+Question : Java Reflection - Attributes
+Status :  Submitted Successfully
+
+Question : Can You Access?
+Status :  Submitted Successfully
+
+Question : Prime Checker
+Status :  Submitted Successfully
+
+Question : Java Factory Pattern
+Status :  Submitted Successfully
+
+Question : Java Singleton Pattern
+Status :  Submitted Successfully
+
+Question : Java Visitor Pattern
+Status :  Submitted Successfully
+
+Question : Java Annotations
+Status :  Submitted Successfully
+
+Question : Covariant Return Types
+Status :  Submitted Successfully
+
+Question : Java Lambda Expressions
+Status :  Submitted Successfully
+
+Question : Java MD5
+Status :  Submitted Successfully
+
+Question : Java SHA-256
+Status :  Submitted Successfully
+
