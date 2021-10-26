@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Miku",
+        "age": 24,
+        "roles": [
+            {
+                "name": "Nakano Miku",
+                "anime": "The Quintessential Quintuplets"
+            },
+            {
+                "name": "Shimamura",
+                "anime": "Adachi to Shimamura"
+            }
+        ]
+    },
+    {
+        "name": "Hana",
+        "age": 30,
+        "roles": [
+            {
+                "name": "Ichika",
+                "anime": "The Quintessential Quintuplets"
+            },
+            {
+                "name": "Onodera Kosaki",
+                "anime": "Nisekoi"
+            }
+        ]
+    },
+    {
+        "name": "Rie",
+        "age": 27,
+        "roles": [
+            {
+                "name": "Megumin",
+                "anime": "Konosuba"
+            },
+            {
+                "name": "Emilia",
+                "anime": "Re:Zero"
+            }
+        ]
+    }
+]
